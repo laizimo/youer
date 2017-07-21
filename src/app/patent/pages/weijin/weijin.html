@@ -1,0 +1,7 @@
+<div class="content">
+  <ul>
+    <li *ngFor="let patent of patentList">
+      <app-patent-item [patent]="patent" [width]="'170px'" [height]="'250px'"></app-patent-item>
+    </li>
+  </ul>
+</div>

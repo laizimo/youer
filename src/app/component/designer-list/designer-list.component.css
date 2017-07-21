@@ -1,0 +1,102 @@
+.content{
+  margin: 5px auto;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+
+.content .item{
+  width: 100%;
+  margin: 5px;
+  position: relative;
+  float: left;
+  height: 150px;
+  background: #9999;
+}
+
+.content .item a{
+  color: #333;
+  text-decoration: none;
+}
+
+.content .item .rank-item{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  float: left;
+  position: relative;
+  line-height: 150px;
+}
+
+.content .item .rank-item .first{
+  width: 128px;
+  height: 128px;
+  margin-top: 15px;
+}
+
+.content .item .rank-item .second{
+  width: 90px;
+  height: 90px;
+  margin-top: 30px;
+}
+
+.content .item .rank-item .third{
+  width: 60px;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.content .item .rank-item>span{
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  line-height: 150px;
+}
+
+.content .designer{
+  float: left;
+  height: 150px;
+  position: relative;
+}
+
+.content .designer .avatar{
+  width: 140px;
+  height: 140px;
+  float: left;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.content .designer .jieshao{
+  width: 100px;
+  height: 150px;
+  text-align: center;
+  float: left;
+}
+
+.content .designer .jieshao span{
+  display: block;
+}
+
+.content .designer .jieshao .name{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.content .patent ul{
+  list-style: none;
+}
+
+.content .patent ul li{
+  width: 150px;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: right;
+}
+
+.content .patent ul li .images{
+  max-width: 140px;
+  height: 140px;
+  margin: 5px;
+}

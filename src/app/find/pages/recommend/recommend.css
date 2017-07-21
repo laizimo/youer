@@ -1,0 +1,210 @@
+.first .carousel-image{
+  width: 100%;
+  height: 85%;
+  max-height: 850px;
+}
+
+.first .carousel-caption .title{
+  width: 357px;
+  height: 82px;
+  font-family: "PingFang SC";
+  font-size: 42px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.98;
+  letter-spacing: -2.6px;
+  text-align: center;
+  color: #fefefe;
+  margin: 0px auto 40px;
+}
+
+.first .carousel-caption .desc{
+  width: 503px;
+  height: 38px;
+  font-family: ".SF NS Text";
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.36;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  margin:0px auto 120px;
+}
+
+.first .carousel-caption .catDesc{
+  width: 190px;
+  height: 45px;
+  border-radius: 4px;
+  background-color: #457bcc;
+  margin-bottom: 120px;
+  outline: none;
+}
+.content{
+  width: 100%;
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.content .container{
+  height: 100%;
+}
+
+.content .container .recommend{
+  width: 109.6px;
+  height: 26.8px;
+  font-family: "PingFang SC";
+  font-size: 25px;
+  color: #5a5957;
+  margin: 140px auto 0px;
+  text-align: center;
+}
+
+.content .container .line{
+  width: 60.7px;
+  height: 2.9px;
+  background-color: #d07c7c;
+  margin: 10px auto 0px;
+}
+
+.content .container .search{
+  width: 400px;
+  height: 36px;
+  margin: 45px auto 0px;
+  position: relative;
+}
+
+.content .container .search .icon{
+  width: 36px;
+  height: 36px;
+  float: left;
+}
+
+.content .container .search .search-input{
+  width: 340px;
+  height: 36px;
+  border-radius: 8px;
+  float: left;
+  border: 2px solid white;
+  outline-color: #d07c7c;
+  margin-left: 22px;
+  padding-left: 45px;
+}
+
+.content .container .search .search-icon{
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 6px;
+  z-index: 1;
+}
+
+
+.content .container .tags{
+  margin: 67px auto 0px;
+  height: 100px;
+  width: 1000px;
+}
+
+.content .container .tags ul{
+  list-style: none;
+}
+
+.content .container .tags ul li{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  width: 90px;
+  height: 30px;
+}
+
+.content .container .tags ul li .tags-button{
+  width: 90px;
+  height: 30px;
+  background-color: #fff;
+  opacity: 0.7;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d07c7c;
+  outline: none;
+  padding: 0px;
+}
+
+
+.content .container .tags ul li .tags-button:hover{
+  color: white;
+  background-color: #d07c7c;
+}
+
+.content .container .patent{
+  width: 100%;
+  height: 1800px;
+  margin: 136px auto 0px;
+}
+
+.content .container .patent ul{
+  list-style: none;
+  height: 100%;
+  padding: 0px;
+}
+
+.content .container .patent ul li{
+  float: left;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content .container .patent ul li .patent-tags{
+  margin-top: 0px;
+  width: 100%;
+  height: 35px;
+}
+
+.content .container .patent ul li .patent-tags ul{
+  padding: 0px;
+  list-style: none;
+  width: 100%;
+  height: 35px;
+}
+
+.content .container .patent ul li .patent-tags ul li{
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+}
+
+.content .container .patent ul li .patent-tags ul li .tags-button{
+  height: 30px;
+  outline: none;
+  background-color: #FFFFFF;
+  color: #d07c7c;
+  padding: 0px;
+  font-family: "PingFang SC";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-left: 12px;
+  padding-right: 12px;
+  opacity: 0.7;
+}
+
+.content .container .patent ul li .patent-tags ul li .tags-button:hover{
+  color: #FFFFFF;
+  background-color: #d07c7c;
+}

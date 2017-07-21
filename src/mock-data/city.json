@@ -1,0 +1,34 @@
+{
+  "1": [
+    {
+      "cityID": "1",
+      "cityName": "直辖区"
+    },
+    {
+      "cityID": "2",
+      "cityName": "直辖县"
+    }
+  ],
+  "2": [
+    {
+      "cityID": "1",
+      "cityName": "杭州市"
+    },
+    {
+      "cityID": "2",
+      "cityName": "宁波市"
+    },
+    {
+      "cityID": "3",
+      "cityName": "金华市"
+    },
+    {
+      "cityID": "4",
+      "cityName": "衢州市"
+    },
+    {
+      "cityID": "5",
+      "cityName": "绍兴市"
+    }
+  ]
+}

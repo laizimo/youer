@@ -1,0 +1,100 @@
+*{
+  font-family: "PingFang SC";
+}
+
+.content{
+  width: 670px;
+  height: 522px;
+  margin: 50px auto 0;
+  background: #fff;
+  opacity: 0.8;
+  margin-bottom: 50px;
+  position: relative;
+  padding-top: 28px;
+}
+
+.content .profile{
+  width: 614px;
+  margin: 0px auto 0;
+  background: #fff;
+  position: relative;
+}
+
+.content .profile ul{
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+
+.content .profile ul li{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content .profile ul li .title{
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  display: block;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+.content .profile ul li a{
+  display: inline;
+  font-size: 14px;
+  color: #c99a05;
+  float: right;
+}
+
+.content .profile ul li label{
+  width: 80px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.content .profile .tags{
+  margin-top: 20px;
+}
+
+.content .profile .tags .title{
+  margin-right: 20px;
+  display: block;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  font-family: "PingFang SC";
+}
+
+.content .profile .tags .tags-content{
+  font-size: 10px;
+  color: #999;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.content .profile .search-tags{
+  margin-top: 20px;
+}
+
+.content .profile .search-tags .title{
+  margin-right: 20px;
+  display: block;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  font-family: "PingFang SC";
+}
+
+.content .profile .search-tags .tags-content{
+  font-size: 10px;
+  color: #999;
+  margin-top: 20px;
+  margin-left: 5px;
+}

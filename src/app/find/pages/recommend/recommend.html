@@ -1,0 +1,90 @@
+<div class="first">
+  <carousel>
+    <slide>
+      <img src="assets/images/weijin1.jpg" alt="first slide" class="carousel-image">
+      <div class="carousel-caption">
+        <div class="title">Men's fashion access</div>
+        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <button md-button class="btn catDesc">查看详情</button>
+      </div>
+    </slide>
+    <slide>
+      <img src="assets/images/weijin2.jpg" alt="second slide" class="carousel-image">
+      <div class="carousel-caption">
+        <div class="title">Men's fashion access</div>
+        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <button md-button class="btn catDesc">查看详情</button>
+      </div>
+    </slide>
+    <slide>
+      <img src="assets/images/weijin3.jpg" alt="third slide" class="carousel-image">
+      <div class="carousel-caption">
+        <div class="title">Men's fashion access</div>
+        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <button md-button class="btn catDesc">查看详情</button>
+      </div>
+    </slide>
+    <slide>
+      <img src="assets/images/weijin4.jpg" alt="forth slide" class="carousel-image">
+      <div class="carousel-caption">
+        <div class="title">Men's fashion access</div>
+        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+        <button md-button class="btn catDesc">查看详情</button>
+      </div>
+    </slide>
+  </carousel>
+</div>
+<div class="content">
+  <div class="container">
+    <div class="recommend">
+      推荐
+    </div>
+    <div class="line"></div>
+    <div class="search">
+      <md-icon svgIcon="zhuzi-icon" class="icon"></md-icon>
+      <md-icon svgIcon="search-icon" class="search-icon"></md-icon>
+      <input type="text" class="search-input">
+    </div>
+    <div class="tags">
+      <ul>
+        <li>
+          <button md-button class="btn tags-button">围巾</button>
+        </li>
+        <li><button md-button class="btn tags-button">丝巾</button></li>
+        <li><button md-button class="btn tags-button">暖色系</button></li>
+        <li><button md-button class="btn tags-button">冷色系</button></li>
+        <li><button md-button class="btn tags-button">花纹</button></li>
+        <li><button md-button class="btn tags-button">条纹</button></li>
+        <li><button md-button class="btn tags-button">纯色</button></li>
+        <li><button md-button class="btn tags-button">春季</button></li>
+        <li><button md-button class="btn tags-button">秋季</button></li>
+        <li><button md-button class="btn tags-button">夏季</button></li>
+        <li><button md-button class="btn tags-button">冬季</button></li>
+        <li><button md-button class="btn tags-button">方巾</button></li>
+        <li><button md-button class="btn tags-button">长围巾</button></li>
+        <li><button md-button class="btn tags-button">少女</button></li>
+      </ul>
+    </div>
+    <div class="patent">
+      <ul>
+        <li *ngFor="let patent of patentList">
+          <app-patent-item [patent]="patent" [width]="'500px'" [height]="'250px'"></app-patent-item>
+          <div class="patent-tags">
+            <ul>
+              <li>
+                <button md-button class="btn tags-button">夏季</button>
+              </li>
+              <li>
+                <button md-button class="btn tags-button">方巾</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

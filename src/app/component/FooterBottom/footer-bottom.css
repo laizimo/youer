@@ -1,0 +1,146 @@
+.first{
+  width: 100%;
+  height: 437px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.first .container{
+  height: 100%;
+}
+
+.first .container .invalid-name{
+  width: 142.1px;
+  height: 30px;
+  font-family: "PingFang SC";
+  font-size: 25px;
+  color: #5a5957;
+  margin: 143px auto 0px;
+  text-align: center;
+}
+
+.first .container .line{
+  width: 71.5px;
+  height: 2.9px;
+  background-color: #d07c7c;
+  margin: 20px auto 0px;
+}
+
+
+.first .container .icon-group{
+  list-style: none;
+  margin: 75px auto 0px;
+  height: 50px;
+  width: 700px;
+  position: relative;
+  text-align: center;
+  display: flex;
+}
+
+.first .container .icon-group li{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+}
+
+.first .container .icon-group li .icon{
+  width: 21px;
+  height: 21px;
+  color: #848282;
+}
+
+.first .container .icon-group li:hover{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e6b5b5;
+  box-shadow:
+    0 0 0 10px #ffffff,
+    0 0 0 11px #e6b5b5;
+  color: white;
+  margin-top: -12px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.first .container .icon-group li:hover .icon{
+  margin-top: 12px;
+  color: white;
+}
+
+.second{
+  width: 100%;
+  height: 683px;
+  opacity: 0.85;
+  background-image: url("../../../assets/images/footer_bg.png");
+  background-size: cover;
+  position: relative;
+}
+
+.second .container{
+  height: 100%;
+}
+
+.second .container .invalid-name{
+  width: 155.8px;
+  height: 29px;
+  font-family: "PingFang SC";
+  font-size: 25px;
+  color: #5a5957;
+  margin: 69px auto 0px;
+  text-align: center;
+}
+
+.second .container .line{
+  width: 60.7px;
+  height: 2.9px;
+  background-color: #d07c7c;
+  margin: 20px auto 0px;
+}
+
+.second .container .tips{
+  width: 330.2px;
+  height: 34px;
+  font-family: "PingFang HK";
+  font-size: 14px;
+  color: #848282;
+  margin: 32px auto 0px;
+}
+
+.second .container .username{
+  margin-left: 360px;
+  margin-top: 35px;
+  width: 400px;
+  height: 50px;
+  display: block;
+}
+
+
+.second .container .email{
+  display: block;
+  margin-top: 15px;
+  width: 400px;
+  height: 50px;
+  margin-left: 360px;
+}
+
+.second .container .desc{
+  display: block;
+  width: 400px;
+  height: 150px;
+  margin-top: 15px;
+  margin-left: 360px;
+}
+
+.send{
+  width: 142.1px;
+  height: 49.1px;
+  background-color: #d07c7c;
+  font-family: "PingFang HK";
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 80px;
+  margin-left: 620px;
+}

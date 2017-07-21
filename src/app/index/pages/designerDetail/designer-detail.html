@@ -1,0 +1,94 @@
+<img src="assets/images/designer_bg1.png" class="first_bg">
+<div class="designer-content">
+  <div class="container">
+    <div class="designer">
+      <div class="designer-left">
+        <div class="title">
+          简介
+        </div>
+        <div class="line"></div>
+        <div class="desc">
+          我个子中等，1，66，再班里排第十个，长脸短鼻子，手大脚也大，一双眼睛不大也不小，眼珠子特别有神，一张大嘴巴特别能说，只要一说起来，说上一个小时也没问题，个子不高不矮，身体不胖不瘦。总的来说还是比较帅的。
+        </div>
+        <div class="xinxi">
+          <p>
+            <label class="name">姓名：</label>
+            zimo
+          </p>
+          <p>
+            <label class="name">地址：</label>
+            浙江 杭州
+          </p>
+          <p>
+            <label class="name">邮箱：</label>
+            lhb1902056720@163.com
+          </p>
+          <p>
+            <label class="name">联系方式：</label>
+            13777836057
+          </p>
+        </div>
+      </div>
+      <div class="designer-right">
+        <img src="assets/images/avatar1.png" class="avatar">
+        <button md-button class="star">关注</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--<div class="work-experience">-->
+  <!--<div class="container">-->
+    <!--<div class="title">-->
+      <!--工作经历-->
+    <!--</div>-->
+    <!--<div class="line"></div>-->
+  <!--</div>-->
+<!--</div>-->
+<div class="patent">
+  <div class="container">
+    <div class="title">
+      作品
+    </div>
+    <div class="line"></div>
+    <div class="patent-content">
+      <md-grid-list cols="4" rowHeight="200px">
+        <md-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows">
+          <a [routerLink]="['/index/patentDetail', 1]"><img src="{{tile.text}}" class="patent-images"></a>
+        </md-grid-tile>
+      </md-grid-list>
+    </div>
+  </div>
+</div>
+<div class="connectme">
+  <div class="container">
+    <div class="line"></div>
+    <div class="tips">
+      如需联系，请填写下方的信息
+    </div>
+    <div class="connect-content">
+      <div class="content-left">
+        <div class="title">
+          联系方式:
+          <p><md-icon svgIcon="facebook"></md-icon> xxxxx</p>
+          <p><md-icon svgIcon="weixin"></md-icon> laihuabo</p>
+          <p><md-icon svgIcon="qq"></md-icon> 1902056720</p>
+          <p><md-icon svgIcon="weibo"></md-icon> weibozhanghao</p>
+        </div>
+      </div>
+      <div class="content-right">
+        <p>
+          <md-input-container class="username">
+            <input type="text" mdInput placeholder="用户名:">
+          </md-input-container>
+          <md-input-container class="email">
+            <input type="text" mdInput placeholder="邮箱:">
+          </md-input-container>
+          <md-input-container class="desc">
+            <textarea name="content" mdInput cols="30" rows="10" placeholder="联系内容"></textarea>
+          </md-input-container>
+        </p>
+        <button md-button class="send">发送</button>
+      </div>
+    </div>
+  </div>
+</div>

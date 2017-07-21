@@ -1,0 +1,79 @@
+{
+  "1": {
+    "1": [
+      {
+        "areaID": "1",
+        "areaName": "东城区"
+      },
+      {
+        "areaID": "2",
+        "areaName": "西城区"
+      },
+      {
+        "areaID": "3",
+        "areaName": "崇文区"
+      },
+      {
+        "areaID": "4",
+        "areaName": "宣武区"
+      },
+      {
+        "areaID": "5",
+        "areaName": "朝阳区"
+      },
+      {
+        "areaID": "6",
+        "areaName": "丰台区"
+      },
+      {
+        "areaID": "7",
+        "areaName": "石景山区"
+      },
+      {
+        "areaID": "8",
+        "areaName": "海淀区"
+      },
+      {
+        "areaID": "9",
+        "areaName": "门头沟区"
+      },
+      {
+        "areaID": "10",
+        "areaName": "房山区"
+      },
+      {
+        "areaID": "11",
+        "areaName": "通州区"
+      },
+      {
+        "areaID": "12",
+        "areaName": "顺义区"
+      },
+      {
+        "areaID": "13",
+        "areaName": "昌平区"
+      },
+      {
+        "areaID": "14",
+        "areaName": "大兴区"
+      },
+      {
+        "areaID": "15",
+        "areaName": "怀柔区"
+      },
+      {
+        "areaID": "16",
+        "areaName": "平谷区"
+      }
+    ],
+    "2": [
+      {
+        "areaID": "1",
+        "areaName": "密云县"
+      },{
+        "areaID": "2",
+        "areaName": "延庆县"
+      }
+    ]
+  }
+}

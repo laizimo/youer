@@ -1,0 +1,78 @@
+.user_module {
+  padding-left: 150px;
+}
+
+.user_module .user_module_home .tips h4{
+  display: inline-block;
+}
+
+.user_module .user_module_home .tips span{
+  margin-left: 10px;
+  font-size: 14px;
+  color: #999;
+}
+
+.user_module .user_module_home .true_name i{
+  margin-left: 10px;
+}
+
+.user_module .user_module_home .user_xinxi{
+  margin-top: 20px;
+  padding: 5px;
+  display: block;
+  position: relative;
+  height: 200px;
+}
+
+.user_module .user_module_home .user_xinxi .user_xinxi_ul{
+  display: block;
+  list-style: none;
+}
+
+.user_module .user_module_home .user_xinxi .user_xinxi_ul .user_xinxi_li{
+  float: left;
+  text-align: center;
+  background: #fff;
+  width: 200px;
+  margin: 5px;
+}
+
+.user_module .user_module_home .user_xinxi .user_xinxi_ul .user_xinxi_li .count{
+  font-size: 32px;
+  height: 63px;
+  margin-top: 10px;
+}
+
+.user_module .user_module_home .user_xinxi .user_xinxi_ul .user_xinxi_li .title{
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.user_module .user_module_home .user-order{
+  display: block;
+  margin-top: -10px;
+  color: #333;
+}
+
+.user_module .user_module_home .user-order .user-order-title{
+  color: #333;
+  font-size: 20px;
+}
+
+.user_module .user_module_home .user-order .user-order-content{
+  text-align: center;
+  font-size: 15px;
+  color: lightgray;
+}
+
+.end{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.end md-icon{
+  width: 100px;
+  height: 50px;
+  color: #e0e0e0;
+}

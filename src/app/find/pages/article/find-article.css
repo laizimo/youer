@@ -1,0 +1,158 @@
+.header{
+  width: 100%;
+  height: 433px;
+  background-image: url("../../../../assets/images/article_gb.png");
+  background-size: cover;
+}
+
+.header .container{
+  height: 100%;
+}
+
+.header .container .search{
+  margin: 183px auto 0;
+  width: 368px;
+  height: 50px;
+}
+
+.header .container .search-input{
+  width: 368px;
+  height: 50px;
+  border: 2px solid #fff7f7;
+  outline: none;
+  padding-left: 50px;
+  background: none;
+  color: #fff7f7;
+  font-family: "PingFang SC";
+  font-size: 18px;
+}
+
+
+.content{
+  width: 100%;
+  position: relative;
+}
+
+.content .container{
+  height: 100%;
+}
+
+.content .container .content-left{
+  width: 560px;
+  height: 100%;
+  margin-top: 80px;
+  margin-left: 100px;
+  float: left;
+}
+
+.content .container .content-left ul{
+  list-style: none;
+  padding: 0px;
+}
+
+.content .container .content-left ul li{
+  margin-bottom: 30px;
+}
+
+.content .container .content-right{
+  width: 230px;
+  height: 100%;
+  margin-top: 80px;
+  margin-right: 155px;
+  float: right;
+}
+
+.content .container .content-right .tuijian-article{
+  width: 100%;
+  position: relative;
+}
+
+.content .container .content-right .tuijian-article .title{
+  width: 98.5px;
+  height: 20px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  color: #727272;
+  margin-top: 10px;
+}
+
+.content .container .content-right .tuijian-article .images{
+  width: 203.9px;
+  height: 140.7px;
+  margin-top: 15px;
+}
+
+.content .container .content-right .tuijian-article .desc{
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #282828;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.content .container .content-right .tuijian-article .tuijian-button{
+  width: 206.8px;
+  height: 34.1px;
+  background-color: #000000;
+  font-family: "PingFang SC";
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.content .container .content-right .tuijian-anthor{
+  margin-top: 84px;
+}
+
+.content .container .content-right .tuijian-anthor .title{
+  width: 98.5px;
+  height: 20px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  color: #727272;
+}
+
+.content .container .content-right .tuijian-anthor ul{
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+
+.content .container .content-right .tuijian-anthor ul li{
+  width: 100%;
+  height: 70px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.content .container .content-right .tuijian-anthor ul li .images{
+  width: 62px;
+  height: 51px;
+  float: left;
+}
+
+.content .container .content-right .tuijian-anthor ul li .name{
+  font-family: Helvetica;
+  font-size: 13px;
+  color: #282828;
+  margin-left: 3px;
+  float: left;
+}
+
+.content .container .content-right .tuijian-anthor ul li .line{
+  width: 203.9px;
+  height: 1px;
+  background-color: #e3e3e3;
+  margin-top: 13px;
+  float: left;
+}
+
+.content .container .content-right .tuijian-anthor .tuijian-button{
+  width: 206.8px;
+  height: 34.1px;
+  background-color: #000000;
+  font-family: "PingFang SC";
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 20px;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "proID": "1",
+    "proName": "北京市"
+  },
+  {
+    "proID": "2",
+    "proName": "天津市"
+  },
+  {
+    "proID": "3",
+    "proName": "河北省"
+  },
+  {
+    "proID": "4",
+    "proName": "山西省"
+  },
+  {
+    "proID": "5",
+    "proName": "内蒙古自治区"
+  },
+  {
+    "proID": "6",
+    "proName": "辽宁省"
+  },
+  {
+    "proID": "7",
+    "proName": "吉林省"
+  },
+  {
+    "proID": "8",
+    "proName": "黑龙江省"
+  },
+  {
+    "proID": "9",
+    "proName": "上海市"
+  },
+  {
+    "proID": "10",
+    "proName": "江苏省"
+  },
+  {
+    "proID": "11",
+    "proName": "浙江省"
+  },
+  {
+    "proID": "12",
+    "proName": "安徽省"
+  }
+]

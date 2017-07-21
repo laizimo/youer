@@ -1,0 +1,319 @@
+.header{
+  width: 100%;
+  height: 64px;
+  background: #333;
+}
+
+.content-header{
+  width: 100%;
+  height: 111px;
+  position: relative;
+  background: #f4f4f4;
+}
+
+.content-header .container{
+  height: 100%;
+}
+
+.content-header .container .title{
+  width: 250px;
+  height: 33px;
+  font-family: "PingFang SC";
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #000000;
+  margin-top: 40px;
+}
+
+
+.content-middle{
+  width: 100%;
+  height: 1200px;
+  position: relative;
+}
+
+.content-middle .container{
+  height: 1200px;
+}
+
+.content-middle .container .content-left{
+  width: 680px;
+  height: 420px;
+  border: 1px solid #f4f4f4;
+  float: left;
+  margin-top: 70px;
+}
+
+.content-middle .container .content-left .desc .desc-header{
+  width: 670px;
+  margin: 5px;
+  background: #f4f4f4;
+}
+
+.content-middle .container .content-left .desc .desc-content{
+  margin-top:20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.content-middle .container .content-left .desc .desc-header label{
+  color: #000;
+  font-family: "PingFang HK";
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.content-middle .container .content-left .upload-image{
+  width: 150px;
+  height: 200px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.content-middle .container .content-left .upload-image .image-body{
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.content-middle .container .content-left .upload-image .image-body .image{
+  width: 150px;
+  height: 150px;
+}
+
+.content-middle .container .content-left .upload-image .image-body .delete{
+  position: absolute;
+  top:-12px;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  background: #fff7f7;
+  border: 1px solid #333;
+  border-radius: 50%;
+  color: #333;
+}
+
+.content-middle .container .content-left .upload-image .image-input{
+  visibility: hidden;
+}
+
+.content-middle .container .content-right{
+  width: 350px;
+  height: 1200px;
+  float: right;
+  margin-top: 70px;
+  margin-right: 54px;
+  position: relative;
+}
+
+
+.content-middle .container .content-right .btn{
+  width: 91px;
+  height: 35px;
+  background-color: #ffffff;
+  border: solid 3px #000000;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #000000;
+  padding: 0;
+  line-height: 32px;
+  outline: none;
+}
+
+.content-middle .container .content-right .active{
+  background: #000;
+  color: #fff;
+  width: 91px;
+  height: 35px;
+  border: solid 3px #000000;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  letter-spacing: 3px;
+  padding: 0;
+  line-height: 32px;
+  outline: none;
+}
+
+.content-middle .container .content-right .line{
+  margin-top: 32px;
+  width: 100%;
+  border: solid 1px #e5e5e5;
+}
+
+.content-middle .container .content-right .material{
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.content-middle .container .content-right .material-button{
+  height: 35px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.content-middle .container .content-right .material-button ul{
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-middle .container .content-right .material-button ul li{
+  float: left;
+  width: 91px;
+  height: 35px;
+  margin-right: 35px;
+}
+
+.content-middle .container .content-right .size{
+  margin-top: 32px;
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.content-middle .container .content-right .size-button{
+  height: 35px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.content-middle .container .content-right .size-button ul{
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-middle .container .content-right .size-button ul li{
+  float: left;
+  width: 91px;
+  height: 35px;
+  margin-right: 35px;
+}
+
+.content-middle .container .content-right .type{
+  margin-top: 32px;
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.content-middle .container .content-right .designer{
+  margin-left: 20px;
+}
+
+.content-middle .container .content-right .address{
+  margin-top: 32px;
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.content-middle .container .content-right .address-content{
+  margin-top: 10px;
+  font-size: 10px;
+  font-family: "PingFang SC";
+}
+
+.content-middle .container .content-right .address-content .address-change{
+  margin-left: 10px;
+}
+
+.content-middle .container .content-right .number{
+  margin-top: 32px;
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: #000000;
+}
+
+.content-middle .container .content-right .number-group{
+  margin-top: 20px;
+  width: 100%;
+  height: 24px;
+}
+
+.content-middle .container .content-right .number-group .number-input{
+  margin-top: 5px;
+  width: 40px;
+  float: left;
+}
+
+.content-middle .container .content-right .number-group md-icon{
+  float: left;
+  margin: 5px;
+}
+
+.content-middle .container .content-right .price{
+  font-size: 31px;
+  color: #d1c3b5;
+  font-family: "PingFang SC";
+  float: right;
+  margin-top: 32px;
+}
+
+.content-middle .container .content-right .options{
+  margin-top: 100px;
+  width: 100%;
+  height: 36px;
+}
+
+.content-middle .container .content-right .options .confirm{
+  width: 171px;
+  height: 43px;
+  background-color: #000000;
+  font-family: "PingFang SC";
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content-middle .container .content-right .help{
+  font-family: "PingFang SC";
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #090909;
+  margin-top: 32px;
+  margin-left: 5px;
+  display: block;
+  width: 84.5px;
+  height: 20px;
+}
+
+.content-middle .container .content-right .tips{
+  width: 343px;
+  height: 17px;
+  font-family: "PingFang SC";
+  font-size: 12px;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #6e6e6e;
+  margin-top: 18px;
+}

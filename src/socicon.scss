@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'socicon';
+  src: url('assets/socicon/fonts/socicon.eot');
+  src: url('assets/socicon/fonts/socicon.eot?#iefix') format('embedded-opentype'),
+  url('assets/socicon/fonts/socicon.woff') format('woff'),
+  url('assets/socicon/fonts/socicon.woff2') format('woff2'),
+  url('assets/socicon/fonts/socicon.ttf') format('truetype'),
+  url('assets/socicon/fonts/socicon.svg#sociconregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  text-transform: initial;
+}
+
+.socicon {
+  font-family: 'socicon' !important;
+}
+
+.socicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'socicon';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.socicon:empty {
+  width: 1em;
+}
+
+@mixin socicon($background, $content) {
+  background-color: $background;
+  &:before {
+    content: $content;
+  }
+}
+
+.socicon-twitter {
+  @include socicon(#55acee, "a");
+}
+
+.socicon-facebook {
+  @include socicon(#3b5998, "b");
+}
+
+.socicon-google {
+  @include socicon(#dd4b39, "c");
+}
+
+.socicon-linkedin {
+  @include socicon(#0177b5, "j");
+}
+
+.socicon-github {
+  @include socicon(#6b6b6b, "Q");
+}
+
+.socicon-stackoverflow {
+  @include socicon(#2f96e8, "(");
+}
+
+.socicon-dribble {
+  @include socicon(#f26798, "D");
+}
+
+.socicon-behace {
+  @include socicon(#0093fa, "H");
+}

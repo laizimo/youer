@@ -1,0 +1,10 @@
+<div class="content" [style.width]="width" [style.height]="height">
+  <a [routerLink]="['/index/patentDetail', patent.id]" divShow>
+    <img src="{{patent.image}}" [style.width]="width" [style.height]="height">
+    <div class="patent-desc" hidden [style.width]="width" [style.height]="height">
+      <h3>{{patent.title}}</h3>
+      <img src="{{patent.avatarPath}}">
+      <span>{{patent.nickname}}</span>
+    </div>
+  </a>
+</div>

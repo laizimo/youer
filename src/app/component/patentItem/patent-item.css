@@ -1,0 +1,30 @@
+.content{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.content .patent-desc{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,.4);
+  text-align: center;
+  color: white;
+}
+
+.content .patent-desc h3{
+  position: relative;
+  margin: 100px auto 30px;
+}
+
+.content .patent-desc img{
+  width: 40px;
+  display: block;
+  position: relative;
+  margin:10px auto;
+}
+
+

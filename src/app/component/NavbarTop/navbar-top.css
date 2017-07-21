@@ -1,0 +1,63 @@
+.fill-remaining-space {
+  /*This fills the remaining space, by using flexbox.
+ Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.yoeor{
+  width: 158.1px;
+  height: 26px;
+  font-family: "PingFang SC";
+  font-size: 22px;
+  color: #ffffff;
+  margin-left: 54.9px;
+}
+
+.nav-top{
+  background: -webkit-linear-gradient(top,rgba(0,0,0,.4),transparent);
+  height: 46px;
+}
+
+.nav-top .active{
+  border-bottom: 2px solid #d07c7c;
+}
+
+.button-group{
+  padding: 0;
+  list-style: none;
+  position: fixed;
+  z-index: 10;
+  background: #333;
+  color: #fff;
+  visibility: hidden;
+}
+
+.patent{
+  top: 70px;
+  left: 405px;
+}
+
+.button-group:hover{
+  visibility: visible;
+}
+
+.find{
+  top:70px;
+  left: 495px;
+}
+
+.myCustom{
+  top:70px;
+  right: 193px;
+}
+
+#myCustom .cart{
+  width: 14px;
+  height: 14px;
+  margin-top: -20px;
+}
+
+.home{
+  top:70px;
+  right: 103px;
+}

@@ -1,0 +1,64 @@
+<div class="content">
+  <div class="container">
+    <div class="first">
+      <div class="title">
+        设计稿
+      </div>
+      <div class="line"></div>
+    </div>
+
+    <div class="patent-images">
+      <img [imageZoom]="srcImageZoom" [src]="srcImage" class="images">
+    </div>
+    <div class="second">
+      <ul>
+        <li *ngFor="let imgSrc of srcImages">
+          <img src="{{imgSrc}}" class="images-list" (click)="changeImages(imgSrc)">
+        </li>
+      </ul>
+      <a href="https://www.lhbzimo.cn/Three.js/PicShower.html" target="_blank" title="查看3D模型" class="look-module"><md-icon svgIcon="module"></md-icon></a>
+      <button md-button class="pull-right cart">加入购物车</button>
+      <div class="price pull-right">
+        ¥200.00
+      </div>
+    </div>
+    <div class="line"></div>
+    <div class="third-module">
+      <div class="third-left">
+        <div class="patent-title">
+          时光楼戳的风华
+        </div>
+        <div class="patent-desc">
+          <label >设计稿介绍:</label>
+          <p>
+            Eone Bradley BR-C-MESH unisex classic mesh tactile quartz watch. The minimalist face of The Bradley Classic features raised markers at each hour.
+
+            To increase tactile legibility, there is a triangular marker indicating “12”, and elongated markers for “3”, “6” and “9”.
+          </p>
+        </div>
+      </div>
+      <div class="third-rignt">
+        <a [routerLink]="['/index/designerDetail',id]">
+          <img src="assets/images/avatar1.png" class="avatar">
+        </a>
+        <div class="designer-desc">
+          <div class="name">
+            zimo
+          </div>
+          <div class="desc">
+            accumsan et iusto odio dignissim qui blanditaccumsan et iusto odio dignissim qui blanditaccumsan et iusto odio dignissim qui blandit
+          </div>
+          <ul class="icon-group">
+            <li><md-icon svgIcon="facebook"></md-icon></li>
+            <li><md-icon svgIcon="qq"></md-icon></li>
+            <li><md-icon svgIcon="weixin"></md-icon></li>
+            <li><md-icon svgIcon="weibo"></md-icon></li>
+            <li><md-icon svgIcon="twitter"></md-icon></li>
+          </ul>
+          <button md-button class="aboutme" [routerLink]="['/index/designerDetail', id]">about me</button>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+  </div>
+</div>

@@ -1,0 +1,82 @@
+<div class="content">
+  <div class="container">
+    <div class="basic-profile">
+      <div class="avatar">
+        <img src="assets/images/avatar1.png" class="images">
+        <button md-button class="avatar-button">更换头像</button>
+      </div>
+      <div class="title">
+        基本资料
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="真实姓名" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <md-select placeholder="性别" [(ngModel)]="gender" class="profile-input gender" >
+          <md-option *ngFor="let genderValue of genderList; let i = index" [value]="i">
+            {{genderValue}}
+          </md-option>
+        </md-select>
+      </div>
+      <div class="line-warp date">
+        <label class="date">生日</label>
+        <material-datepicker [(date)]="date" [placeholder]="'生日'" class="profile-input"></material-datepicker>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="简介" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <label class="city">居住城市</label>
+        <three-link-address (provinceOut)="changeAddress($event)"></three-link-address>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="个人主页" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="submit">
+        <button class="submit-button" md-button>保存</button>
+      </div>
+    </div>
+    <div class="basic-profile">
+      <div class="title">
+        联系信息
+      </div>
+      <div class="tips">
+        YOEOR有时候会寄送设计师的小卡片，绝对不会泄露你的联系信息
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="邮政编码" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="地址" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="qq号码" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="电话" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="line-warp">
+        <md-input-container>
+          <input type="text" mdInput placeholder="身份证号码" class="profile-input">
+        </md-input-container>
+      </div>
+      <div class="submit">
+        <button class="submit-button" md-button>保存</button>
+      </div>
+    </div>
+  </div>
+</div>

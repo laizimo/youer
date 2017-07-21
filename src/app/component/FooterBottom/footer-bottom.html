@@ -1,0 +1,32 @@
+<div class="first" [@flyIn]="'avtive'">
+  <div class="container">
+    <div class="invalid-name">关注我们</div>
+    <div class="line"></div>
+    <ul class="icon-group">
+      <li><md-icon svgIcon="weibo-icon" class="icon"></md-icon></li>
+      <li><md-icon svgIcon="qq-icon" class="icon"></md-icon></li>
+      <li><md-icon svgIcon="github-icon" class="icon"></md-icon></li>
+      <li><md-icon svgIcon="facebook-icon" class="icon"></md-icon></li>
+      <li><md-icon svgIcon="twitter-icon" class="icon"></md-icon></li>
+    </ul>
+  </div>
+</div>
+<div class="second" [@flyIn]="'active'">
+  <div class="container">
+    <div class="invalid-name">联系我们</div>
+    <div class="line"></div>
+    <div class="tips">请在下方填写你的邮箱以及内容，稍后客服将会与你联系</div>
+    <p>
+      <md-input-container class="username">
+        <input type="text" mdInput placeholder="用户名:">
+      </md-input-container>
+      <md-input-container class="email">
+        <input type="text" mdInput placeholder="邮箱:">
+      </md-input-container>
+      <md-input-container class="desc">
+        <textarea name="content" mdInput cols="30" rows="10" placeholder="联系内容"></textarea>
+      </md-input-container>
+    </p>
+    <button md-button class="send">发送</button>
+  </div>
+</div>

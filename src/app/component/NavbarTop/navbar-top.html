@@ -1,0 +1,68 @@
+<md-toolbar color="primary" class="navbar-fixed-top nav-top" gradient>
+  <span md-button class="yoeor">{{'app.title' | translate}}</span>
+  <button md-button routerLink="index" routerLinkActive="active">{{'app.index' | translate}}</button>
+  <button md-button routerLinkActive="active" routerLink="rank">{{'app.rank' | translate}}</button>
+  <button md-button navDropdown [divName]="'patent'" routerLink="patent" routerLinkActive="active">{{'app.patent' | translate}}</button>
+  <button md-button navDropdown [divName]="'find'" routerLink="find" routerLinkActive="active">{{'app.find' | translate}}</button>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="fill-remaining-space"></span>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm *ngIf="currentUser?.username">
+    <button md-button routerLink="/products">{{'app.login' |translate}}</button>
+    <button md-button routerLink="/dashboard">{{'app.register' | translate}}</button>
+  </div>
+  <div fxLayout="row" fxShow="false" fxShow.gt-sm >
+    <button md-button navDropdown [divName]="'myCustom'">我的订制</button>
+    <button md-button routerLink="home" routerLinkActive="active" navDropdown [divName]="'home'">个人管理</button>
+    <button md-button>退出</button>
+  </div>
+  <button md-button [md-menu-trigger-for]="menu" fxHide="false" fxHide.gt-sm>
+    <md-icon>menu</md-icon>
+  </button>
+
+</md-toolbar>
+<md-menu x-position="before" #menu="mdMenu">
+  <button md-menu-item routerLink="/products">登录</button>
+  <button md-menu-item routerLink="/dashboard">注册</button>
+  <!--<button md-menu-item>Help</button>-->
+</md-menu>
+
+<ul class="button-group patent" id="patent" ulMouse>
+  <li>
+    <button md-button routerLink="patent/classify/weijin">{{'app.material1' | translate}}</button>
+  </li>
+  <li>
+    <button md-button routerLink="patent/classify/sijin">{{'app.material2' | translate}}</button>
+  </li>
+</ul>
+
+<ul class="button-group find" id="find" ulMouse>
+  <li>
+    <button md-button routerLink="find/recommend">{{'app.recommend' | translate}}</button>
+  </li>
+  <li>
+    <button md-button>{{'app.fashionWear' | translate}}</button>
+  </li>
+  <li>
+    <button md-button routerLink="find/article">文章</button>
+  </li>
+</ul>
+
+<ul class="button-group myCustom" id="myCustom" ulMouse>
+  <li>
+    <button md-button routerLink="user/custom">我的订制</button>
+  </li>
+  <li>
+    <button md-button routerLink="user/cart"><md-icon svgIcon="cart" class="cart"></md-icon>购物车</button>
+  </li>
+</ul>
+
+<ul class="button-group home" id="home" ulMouse>
+  <li>
+    <button md-button routerLink="home/basic">我的主页</button>
+  </li>
+  <li><button md-button routerLink="user/order">我的订单</button></li>
+  <li><button md-button routerLink="home/star">我的喜欢</button></li>
+  <li><button md-button routerLink="home/follow">我的关注</button></li>
+  <li><button md-button routerLink="setting">设置</button></li>
+</ul>

@@ -1,0 +1,180 @@
+<div class="header" [@out]="header_state">
+  <div class="zhezhao">
+    <div class="title">
+      YOEOR
+    </div>
+    <div class="icon">
+      <md-icon svgIcon="down" [@dong]="state" (click)="down()"></md-icon>
+    </div>
+  </div>
+</div>
+<div class="header-second" [@content]="content_state" id="content">
+  <div class="first">
+    <carousel>
+      <slide>
+        <img src="assets/images/ad1.jpg" alt="first slide" class="carousel-image">
+        <div class="carousel-caption">
+          <div class="title">活动</div>
+          <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+          <button md-button class="btn catDesc">查看详情</button>
+        </div>
+      </slide>
+      <slide>
+        <img src="assets/images/ad2.jpg" alt="second slide" class="carousel-image">
+        <div class="carousel-caption">
+          <div class="title">活动</div>
+          <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+          <button md-button class="btn catDesc">查看详情</button>
+        </div>
+      </slide>
+      <slide>
+        <img src="assets/images/ad3.jpg" alt="third slide" class="carousel-image">
+        <div class="carousel-caption">
+          <div class="title">活动</div>
+          <div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+          <button md-button class="btn catDesc">查看详情</button>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+</div>
+<div class="content">
+  <div class="first-module">
+    <ul>
+      <li>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="assets/images/designer1.jpg">
+            </div>
+            <div class="anthor">
+              zimo
+            </div>
+          </div>
+          <div class="card-content">
+            <img src="assets/images/sijin1.jpg">
+          </div>
+          <div class="card-footer">
+            ¥100
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="assets/images/designer2.jpg">
+            </div>
+            <div class="anthor">
+              郭立伟
+            </div>
+          </div>
+          <div class="card-content">
+            <img src="assets/images/sijin2.jpg">
+          </div>
+          <div class="card-footer">
+            ¥312
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <img src="assets/images/designer3.jpg">
+            </div>
+            <div class="anthor">
+              紫陌
+            </div>
+          </div>
+          <div class="card-content">
+            <img src="assets/images/sijin3.jpg">
+          </div>
+          <div class="card-footer">
+            ¥570
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="second-module">
+    <div class="container">
+      <div style="margin-bottom: 10px"></div>
+      <div class="row itemBox">
+        <a href="#" class="pull-left"><img src="assets/images/sijin6.png"><span>长围巾</span></a>
+        <a href="#" class="pull-left"><img src="assets/images/sijin8.png"><span>领巾</span></a>
+        <a href="#" class="pull-left"><img src="assets/images/sijin10.jpg"><span>方巾</span></a>
+        <a href="#" class="pull-left"><img src="assets/images/sijin11.jpg"><span>丝巾</span></a>
+        <a href="#" class="pull-left"><img src="assets/images/sijin5.png"><span>纯色围巾</span></a>
+      </div>
+      <div class="row designer">
+        <p>
+          <span>
+            <span>热门专题</span>
+            <br>
+            <span>Hot topic</span>
+          </span>
+          <a href="#" class="pull-right">查看更多>></a>
+        </p>
+        <div class="homeItemBox clearfix" style="width: 1200px">
+          <a href="#" class="pull-left"><img src="assets/images/tuijian1.jpg"></a>
+          <a href="#" class="pull-left"><img src="assets/images/tuijian2.jpg"></a>
+          <a href="#" class="pull-left"><img src="assets/images/tuijian3.jpg"></a>
+          <a href="#" class="pull-left"><img src="assets/images/tuijian4.jpg"></a>
+        </div>
+      </div>
+      <div class="row designer">
+        <p>
+          <span>
+            <span>设计师推荐</span>
+          <br>
+          <span>Stylist recommended</span>
+          </span>
+          <a href="#" class="pull-right">查看更多>></a>
+        </p>
+        <div class="designerContentBox clearfix" style="width: 1200px">
+          <a href="#" class="pull-left"><img src="assets/images/designer1.jpg"></a>
+          <a href="#" class="pull-left"><img src="assets/images/designer2.jpg"></a>
+          <a href="#" class="pull-left"><img src="assets/images/designer3.jpg"></a>
+          <a href="#" class="pull-left" style="margin-right: 0"><img src="assets/images/designer4.jpg"></a>
+        </div>
+      </div>
+      <div class="row designer">
+        <p>
+          <span>
+            <span>穿搭志</span>
+            <br>
+            <span>Wear a volunteer</span>
+          </span>
+          <a href="#" class="pull-right">查看更多>></a>
+        </p>
+        <div class="wearBox clearfix" style="width: 1200px">
+          <ul class="pull-left">
+            <li><a href="#"><img src="assets/images/chuanda10.jpeg"></a></li>
+            <li>
+              <p>日常穿搭</p>
+              <p>#日常</p>
+            </li>
+          </ul>
+          <ul class="pull-left">
+            <li><a href="#"><img src="assets/images/chuanda11.jpeg"></a></li>
+            <li>
+              <p>日常穿搭</p>
+              <p>#日常</p>
+            </li>
+          </ul>
+          <ul class="pull-left">
+            <li><a href="#"><img src="assets/images/chuanda12.jpg"></a></li>
+            <li>
+              <p>日常穿搭</p>
+              <p>#日常</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

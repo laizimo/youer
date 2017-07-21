@@ -1,0 +1,85 @@
+.content{
+  width: 555px;
+  position: relative;
+}
+
+.content .anthor{
+  width: 100%;
+  height: 60px;
+  margin-bottom:20px;
+  line-height: 60px;
+}
+
+.content .anthor .avatar{
+  width: 60px;
+  height: 60px;
+  float: left;
+  border-radius: 50%;
+}
+
+.content .anthor .anthor-name{
+  font-family: "PingFang SC";
+  font-size: 16px;
+  color: #000000;
+  margin-left: 24px;
+  float: left;
+}
+
+.content .anthor .article-time{
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #8d8d8c;
+  margin-left: 20px;
+  float: left;
+}
+
+.content .article-title{
+  width: 100%;
+  height: 42px;
+  margin-top: 17px;
+  font-family:"PingFang SC";
+  font-size: 29.9px;
+  color: #282828;
+}
+
+.content .article-images{
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+}
+
+.content .desc{
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 13px;
+  color: rgba(92, 92, 90, 0.8);
+  margin-top: 30px;
+}
+
+.content ul{
+  width: 100%;
+  padding: 0;
+  height: 18px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.content ul li{
+  width: 32px;
+  height: 18px;
+  margin-right: 48px;
+  float: left;
+}
+
+.content ul li md-icon{
+  width: 32px;
+  height: 18px;
+  color: #b2b2b2;
+}
+
+.content .line{
+  width: 555px;
+  height: 1px;
+  background-color: #2a2a2a;
+  margin-top: 21px;
+}

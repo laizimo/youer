@@ -1,0 +1,14 @@
+<p class="address">
+  <md-select name="province" [(ngModel)]="province" (change)="provinceChange()">
+    <md-option [value]="-1">--请选择省份--</md-option>
+    <md-option *ngFor="let item of provinData" [value]="item.proID">{{item.proName}}</md-option>
+  </md-select>
+  <md-select name="city" [(ngModel)]="city" (change)="cityChange()">
+    <md-option [value]="-1">--请选择城市--</md-option>
+    <md-option *ngFor="let item of cityData" [value]="item.cityID">{{item.cityName}}</md-option>
+  </md-select>
+  <md-select name="area" [(ngModel)]="area" >
+    <md-option [value]="-1">--请选择地区--</md-option>
+    <md-option *ngFor="let item of areaData" [value]="item.areaID">{{item.areaName}}</md-option>
+  </md-select>
+</p>

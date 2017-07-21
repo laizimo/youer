@@ -1,0 +1,93 @@
+<div class="header"></div>
+<div class="content-header">
+  <div class="container">
+    <div class="title">
+      专属订制
+    </div>
+  </div>
+</div>
+<div class="content-middle">
+  <div class="container">
+    <div class="content-left">
+      <div class="desc">
+        <div class="desc-header">
+          <label>订制描述：</label>
+        </div>
+        <div class="desc-content">
+          <textarea name="content" id="order_editor" class="form-control" rows="10"></textarea>
+        </div>
+      </div>
+      <div class="upload-image">
+        <div class="image-body">
+          <a id="fileSelect" (click)="changeImage()">
+            <img [src]="defaultImage" class="image">
+          </a>
+            <md-icon svgIcon="delete" class="delete" (click)="deleteImage()" [style.visibility]="show"></md-icon>
+        </div>
+        <input type="file" class="image-input" id="fileElem" (change)="getImage()">
+      </div>
+    </div>
+    <div class="content-right">
+      <div class="material">
+        材质
+      </div>
+      <div class="material-button">
+        <ul>
+          <li><button md-button  [ngClass]="uploadOrder.material == 0? 'active':'btn'" (click)="changeMaterial(0);">围巾</button></li>
+          <li><button md-button  [ngClass]="uploadOrder.material == 1? 'active':'btn'" (click)="changeMaterial(1);">丝巾</button></li>
+        </ul>
+      </div>
+      <div class="size">
+        尺寸
+      </div>
+      <div class="size-button">
+        <ul>
+          <li><button md-button [ngClass]="uploadOrder.size == 0? 'active': 'btn'" (click)="changeSize(0);">50*50</button></li>
+          <li><button md-button [ngClass]="uploadOrder.size == 1? 'active': 'btn'" (click)="changeSize(1);">30*180</button></li>
+        </ul>
+      </div>
+      <div class="line"></div>
+      <div class="type">
+        模式
+      </div>
+      <div class="type-group">
+        <md-radio-group>
+          <md-radio-button *ngFor="let type of types; let i=index" [value]="i" (click)="changeType(i)" class="radio">{{type}}</md-radio-button>
+        </md-radio-group>
+      </div>
+      <md-input-container class="designer" *ngIf="uploadOrder.type == 2">
+        <input type="text" placeholder="设计师" mdInput [(ngModel)]="uploadOrder.designer">
+      </md-input-container>
+      <div class="line"></div>
+      <div class="address">
+        收货地址
+      </div>
+      <div class="address-content">
+        {{uploadOrder.address}}<a class="address-change" (click)="changeAddress()">修改</a>
+      </div>
+      <div class="line"></div>
+      <div class="number">
+        数目
+      </div>
+      <div class="number-group">
+        <md-icon svgIcon="sub" (click)="subNumber();"></md-icon>
+        <input type="text" class="number-input" [(ngModel)]="uploadOrder.number">
+        <md-icon svgIcon="plus" (click)="addNumber();"></md-icon>
+      </div>
+      <div class="line"></div>
+      <div class="price">
+        ¥{{uploadOrder.totalPrice}}
+      </div>
+      <div class="options">
+        <button md-button class="confirm" (click)="submit();">确认购买</button>
+        <button md-button class="add-cart">加入购物车</button>
+      </div>
+      <div class="line"></div>
+      <a href="#" class="help">需要帮助？</a>
+      <div class="tips">
+        如果对悦蓉对专属订制有疑问，请按上面对帮助按钮寻求帮助
+      </div>
+      <div class="line"></div>
+    </div>
+  </div>
+</div>

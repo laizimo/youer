@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="container">
+    <ul>
+      <li *ngFor="let patent of patentList; let i= index">
+        <div *ngIf="i == 0" class="first">
+          <md-icon svgIcon="first"></md-icon>
+          <app-patent-item [patent]="patent" [width]="'463px'" [height]="'575px'"></app-patent-item>
+        </div>
+        <div *ngIf="i == 1" class="second">
+          <md-icon svgIcon="second"></md-icon>
+          <app-patent-item [patent]="patent" [width]="'372px'" [height]="'271px'"></app-patent-item>
+        </div>
+        <div *ngIf="i == 2" class="third">
+          <md-icon svgIcon="third"></md-icon>
+          <app-patent-item [patent]="patent" [width]="'372px'" [height]="'271px'"></app-patent-item>
+        </div>
+        <div *ngIf="i != 1 && i != 2 && i != 0" class="other">
+          <app-patent-item [patent]="patent" [width]="'305px'" [height]="'250px'"></app-patent-item>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
